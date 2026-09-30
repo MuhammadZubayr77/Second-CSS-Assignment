@@ -1,0 +1,124 @@
+.master-container {
+    background-color: #eee;
+    margin-top: -40px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    max-width: 100%;
+    width: 100%;
+    padding: 50px;
+}
+
+.just-picture-it {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(112, 106, 98);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.menu li:first-child {
+    background-color: whitesmoke;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+}
+
+.menu li {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+
+.image {
+    width: 270px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    font-weight: -20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -2px;
+}
+
+.rmg {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: rgb(112, 106, 98);
+    text-align: center;
+}
+
+.get {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(112, 106, 98);
+    margin-top: -15px;
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.remove {
+    background-color: rgb(247, 246, 245);
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 100px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: 50px;
+    border-radius: 40px;
+    border: 0px;
+    background-color: rgba(18, 18, 236, 0.989);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop-file {
+    display: block;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.small {
+    text-align: center;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
